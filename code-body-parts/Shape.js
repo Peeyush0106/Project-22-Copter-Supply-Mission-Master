@@ -1,16 +1,20 @@
+/*
+This is a huge class that takes its methods and properties in the parameters, properties and methids can be called from outside the parameters too. The main siggestions to use this Shape class are below : {
+    If you don't want any-one of the parameters, enter "null" in it.
+
+    The code has been written as if for ex., you are giving the radius as "null", then the computer is commanded to expect a rectangle out of the inputs.
+
+    A Rectangle is 1, and a Cirlce is 0 in the code for this.body property below.
+
+    To display the images of the Shape class, call the <<shapeName>>.displayImage(image, imageFilePath, imageX, imageY, imageScale, imageWidth, imageHeight);.
+
+    Where we are checking if something is null, we are giving only two = (equal to) signs, so that if the user unknowingly uses null in double qoutes, it will take the value as null. It will not be the sensitive
+}
+
+It is much better than the Sprite class.
+*/
+
 class Shape {
-    // Suggestions and Information to use the Shape class
-
-    // If you don't want any-one of the parameters, enter "null" in it.
-
-    // The code has been written as if for ex., you are giving the radius as "null", then it's a rectangle.
-
-    // A Rectangle is 1, and a Cirlce is 0 in the code for this.body property below.
-
-    // To display the images of the Shape class, call the <<shapeName>>.displayImage(image, imageFilePath, imageX, imageY, imageScale, imageWidth, imageHeight);.
-
-    // Where we are checking if something is null, we are giving only two = (equal to) signs, so that if the user unknowingly uses null in double qoutes, it will take the value as null. It will not be the sensitive
-
     constructor(x, y, width, height, radius, fill, visible) {
         this.centerX = x;
         this.centerY = y;
