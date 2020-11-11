@@ -3,6 +3,5 @@ function draw() {
     background(0);
     Engine.update(engine);
     checkRestartGameConditions();
-    setProperties();
     displayImagesAndObjects
 }
