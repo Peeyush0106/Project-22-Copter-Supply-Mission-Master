@@ -1,5 +1,5 @@
 /*
-This is a huge class that takes its methods and properties in the parameters, properties and methids can be called from outside the parameters too. The main siggestions to use this Shape class are below : {
+This is a huge class that takes its methods and properties in the parameters, properties and methods can be called from outside the parameters too. The main suggestions to use this Shape class are below : {
     If you don't want any-one of the parameters, enter "null" in it.
 
     The code has been written as if for ex., you are giving the radius as "null", then the computer is commanded to expect a rectangle out of the inputs.
